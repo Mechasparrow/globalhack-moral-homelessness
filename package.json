@@ -15,5 +15,9 @@
   "bugs": {
     "url": "https://github.com/Mechasparrow/moral-homelessness/issues"
   },
-  "homepage": "https://github.com/Mechasparrow/moral-homelessness#readme"
+  "homepage": "https://github.com/Mechasparrow/moral-homelessness#readme",
+  "dependencies": {
+    "node-json-db": "^0.7.3",
+    "passport-local": "^1.0.0"
+  }
 }
