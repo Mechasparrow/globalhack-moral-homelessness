@@ -11,6 +11,7 @@ function getMoraldata(){
 
       tablerow.append('<td>' + data[i].First_Name +'</td>');
       tablerow.append('<td>' + data[i].Last_Name +'</td>');
+      tablerow.append('<td>' + data[i].priority + '</td>');
 
       $("#homeless_data_table").append(tablerow);
     }
