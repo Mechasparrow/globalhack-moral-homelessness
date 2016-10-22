@@ -1,0 +1,19 @@
+{
+  "name": "moral-homeless",
+  "version": "1.0.0",
+  "description": "A system to keeping track of homeless data and prioritizing",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Mechasparrow/moral-homelessness.git"
+  },
+  "author": "Michael and Leon",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Mechasparrow/moral-homelessness/issues"
+  },
+  "homepage": "https://github.com/Mechasparrow/moral-homelessness#readme"
+}
