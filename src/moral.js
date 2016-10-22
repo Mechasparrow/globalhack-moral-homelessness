@@ -74,6 +74,7 @@ function moralize(data){
 
     var dobstring = newdata[i].DOB;
     var age = moment().diff(moment(dobstring, 'MM/DD/YYYY'), 'years');
+    newdata[i].age = age;
     if (age >= 50 || age <= 10){
       newdata[i].priority += 2;
     }

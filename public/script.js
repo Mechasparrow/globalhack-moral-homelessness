@@ -13,8 +13,16 @@ function getMoraldata(){
 
       var tablerow = $("<tr></tr>");
 
+      tablerow.append('<td>' + data[i].UserID + '</td>')
       tablerow.append('<td>' + data[i].First_Name +'</td>');
       tablerow.append('<td>' + data[i].Last_Name +'</td>');
+
+      if (data[i].age != null){
+        tablerow.append('<td>' + data[i].age + '</td>');
+      }else {
+        tablerow.append('<td>' + 'N/A' + '</td>');
+      }
+
       tablerow.append('<td>' + data[i].priority + '</td>');
 
       $("#homeless_data_table").append(tablerow);
