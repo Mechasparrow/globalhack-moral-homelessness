@@ -72,6 +72,12 @@ function moralize(data){
       newdata[i].priority += 4;
     }
 
+    if (typeof(newdata[i].YearEnteredService) == "number"){
+      newdata[i].military = true;
+    }else {
+      newdata[i].military = false;
+    }
+
     var dobstring = newdata[i].DOB;
     var age = moment().diff(moment(dobstring, 'MM/DD/YYYY'), 'years');
     newdata[i].age = age;

@@ -24,7 +24,7 @@ function getMoraldata(){
       }
 
       tablerow.append('<td>' + data[i].priority + '</td>');
-
+      tablerow.append('<td>' + data[i].military + '</td>');
       $("#homeless_data_table").append(tablerow);
     }
   });
@@ -55,7 +55,7 @@ function filterList() {
         }
 
         tablerow.append('<td>' + data[i].priority + '</td>');
-
+        tablerow.append('<td>' + data[i].military + '</td>');
         $("#homeless_data_table").append(tablerow);
       }
     }
