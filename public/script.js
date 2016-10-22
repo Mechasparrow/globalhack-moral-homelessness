@@ -1,3 +1,8 @@
 $(document).ready (function () {
-  alert("ready");
+
+
 });
+
+function getMoraldata(){
+  
+}
