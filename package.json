@@ -18,10 +18,12 @@
   "homepage": "https://github.com/Mechasparrow/moral-homelessness#readme",
   "dependencies": {
     "google-auth-library": "^0.9.9",
+    "google-spreadsheet": "^2.0.3",
     "google-spreadsheet-to-json": "^0.3.0",
     "googleapis": "^14.1.0",
     "lodash": "^4.16.4",
     "lowdb": "^0.13.1",
+    "moment": "^2.15.1",
     "node-json-db": "^0.7.3",
     "passport-local": "^1.0.0"
   }
