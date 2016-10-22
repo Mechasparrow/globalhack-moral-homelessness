@@ -17,6 +17,7 @@
   },
   "homepage": "https://github.com/Mechasparrow/moral-homelessness#readme",
   "dependencies": {
+    "csvtojson": "^1.0.3",
     "google-auth-library": "^0.9.9",
     "google-spreadsheet": "^2.0.3",
     "google-spreadsheet-to-json": "^0.3.0",
