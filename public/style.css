@@ -35,6 +35,7 @@
   background-color:#4AB5D9;
   color:#ffffff;
   border-radius:0;
+  border-bottom:0.5px solid white;
 }
 
 .navbar-custom .navbar-nav > li > a {
@@ -51,6 +52,10 @@
 }
 
 .nav li a:hover{
+  background-color:#2F8EAD;
+}
+
+.nav li a:focus{
   background-color:#2F8EAD;
 }
 
@@ -95,4 +100,8 @@ body{
 #homeless_data {
   margin-left: auto;
   margin-right: auto;
+}
+
+#contactMe{
+  background-color:#71D0F0;
 }
