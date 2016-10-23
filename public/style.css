@@ -76,5 +76,14 @@ body{
 }
 
 .blueB{
-  background-color:#4AB5D9;
+  background-color:#71D0F0;
+}
+
+#app{
+  margin-top:5em;
+}
+
+#buttonMachine{
+  margin-top:3em;
+  margin-bottom:3em;
 }
