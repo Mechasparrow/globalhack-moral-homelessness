@@ -74,6 +74,17 @@ function moralize(data){
 
     if (typeof(newdata[i].YearEnteredService) == "number"){
       newdata[i].military = true;
+      var militarydiff = newdata[i].YearSeparated - newdata[i].YearEnteredService;
+
+      if (militarydiff >= 5){
+        newdata[i].priority += 3;
+      }else if (militarydiff >= 3){
+        newdata[i].priority += 2;
+      }else {
+        newdata[i].priority += 1;
+      }
+
+
     }else {
       newdata[i].military = false;
     }

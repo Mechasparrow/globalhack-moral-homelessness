@@ -14,8 +14,17 @@ function getMoraldata(){
       var tablerow = $("<tr class = 'tabledata'></tr>");
 
       tablerow.append('<td>' + data[i].UserID + '</td>')
-      tablerow.append('<td>' + data[i].First_Name +'</td>');
-      tablerow.append('<td>' + data[i].Last_Name +'</td>');
+      if (data[i].First_Name != "") {
+        tablerow.append('<td>' + data[i].First_Name +'</td>');
+      }else {
+        tablerow.append('<td>' + "unknown" +'</td>');
+      }
+
+      if (data[i].Last_Name != ""){
+        tablerow.append('<td>' + data[i].Last_Name +'</td>');
+      }else {
+        tablerow.append('<td>' + "unknown" +'</td>');
+      }
 
       if (data[i].age != null){
         tablerow.append('<td>' + data[i].age + '</td>');
