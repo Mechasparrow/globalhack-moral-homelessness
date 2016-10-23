@@ -71,6 +71,16 @@
 
         </div>
 
+        <div class="search-bar row">
+            <div class="input-group col-md-offset-4 col-md-4">
+                <input id = "input-search-name" type="text" placeholder="search by last name" class="form-control" name="filter"></input>
+                <span class="input-group-btn">
+                  <button onclick = "filterListByName()" class="btn btn-info" type="button">Go!</button>
+                </span>
+            </div>
+
+        </div>
+
         <div class="reset-button row">
             <div class="col-md-4 col-md-offset-4">
                 <button onclick = "reset()" class="btn btn-info btn-block">Reset</button>
