@@ -78,7 +78,7 @@ function filterListByName() {
 
   $.getJSON("/clientdata", function (data) {
     for (var i = 0; i < data.length; i ++){
-      if (data[i].Last_Name == searchbar.val()){
+      if (data[i].Last_Name.toLowerCase() == searchbar.val().toLowerCase()){
         var tablerow = $("<tr class = 'tabledata'></tr>");
 
         tablerow.append('<td>' + data[i].UserID + '</td>')
