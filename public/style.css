@@ -108,7 +108,9 @@ body{
 }
 
 #phonePic{
-  padding-top:5em;
+  padding-top:9em;
+  padding-bottom:5em;
+  padding-left:3em;
 }
 
 #contactText{
