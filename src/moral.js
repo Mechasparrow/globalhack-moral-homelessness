@@ -1,7 +1,6 @@
 var express = require('express');
 var router = express.Router();
 var gsjson = require('google-spreadsheet-to-json');
-var token = require("./token.js");
 var moment = require('moment');
 var Converter = require('csvtojson').Converter;
 var converter = new Converter({});
